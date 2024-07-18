@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+     min-height: 80vh;
+     width: 40vw;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 5%;
+     margin-bottom:5%;
+     margin-left: 30%;
+     border-radius: 20px;
+     box-shadow: 4px 4px 4px 4px grey;
+     
+    
+}
+
+.heading{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.todo-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+    padding: 10px;
+    width: 30vw;
+    height: 40vh;
+}
+
+.todo-box input{
+    margin: 5%;
+    padding: 2%;
+    width: 100%;
+}
+
+.todo-box button{
+    width:60%;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #0E46A3;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-bottom: 1.5rem;
+}
+
+.list h1{
+    font-size: 1.5rem;
+    padding:1rem;
+    text-align: center;
+}
+
+.list .todo-list{
+     list-style: none;
+     padding: 1rem;
+}
+.list .todo-list li{
+    margin-bottom:2rem;
+}
+.list .todo-list span{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.list .todo-list button{
+    background-color: red;
+    border: none;
+    border-radius:1rem;
+    padding: 0.5rem;
+}
+
